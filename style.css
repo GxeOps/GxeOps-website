@@ -16,14 +16,17 @@ html{
 }
 
 .menu_ button {
-  color: white; /* Couleur du texte des boutons */
-  border: none; /* Supprime les bordures des boutons */
-  padding: 10px 20px; /* Espacement intérieur des boutons */
+  background-color: transparent; /* Pas de fond */
+  color: white; /* Couleur du texte */
+  border: 2px solid white; /* Bordure blanche */
+  padding: 10px 20px; /* Espacement intérieur */
+  border-radius: 5px; /* Bords arrondis (optionnel) */
   cursor: pointer; /* Changement de curseur au survol */
+  outline: none; /* Supprime le contour par défaut */
 }
 
 .menu_ button:hover {
-  background-color: gray; /* Couleur de fond au survol */
+  background-color: rgba(255, 255, 255, 0.2); /* Légère teinte au survol */
 }
 
 .haut_page{
