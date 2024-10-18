@@ -5,8 +5,28 @@ html{
   font-family : "Arial", Arial, serif;
 }
 
-.menu{
-  background-color: dark;
+.menu {
+  background-color: black; /* Fond d'écran noir */
+  padding: 20px; /* Espacement intérieur */
+  border-radius: 10px; /* Bords arrondis (optionnel) */
+}
+
+.menu_ {
+  list-style-type: none; /* Supprime les puces de la liste */
+  margin: 10px 0; /* Marge entre les éléments de la liste */
+}
+
+.menu_ button {
+  background-color: white; /* Couleur de fond des boutons */
+  color: black; /* Couleur du texte des boutons */
+  border: none; /* Supprime les bordures des boutons */
+  padding: 10px 20px; /* Espacement intérieur des boutons */
+  border-radius: 5px; /* Bords arrondis des boutons */
+  cursor: pointer; /* Changement de curseur au survol */
+}
+
+.menu_ button:hover {
+  background-color: gray; /* Couleur de fond au survol */
 }
 
 .haut_page{
