@@ -1,2 +1,6 @@
 #menu{margin: 0;}
-.menu_{display:inline-block;margin: 0 15px;vertical-align:top
+.menu_{display:inline-block;margin: 0 15px;vertical-align:top}
+
+.menu{
+  background-color: dark;
+}
