@@ -2,7 +2,7 @@
 .menu_{display:inline-block;margin: 0 15px;vertical-align:top}
 
 html{
-  font-family : "Arial", Arial, serif;
+  font-family : 'Roboto', Arial, sans-serif;
 }
 
 .menu {
@@ -18,7 +18,7 @@ html{
 .menu_ button {
   background-color: transparent; /* Pas de fond */
   color: white; /* Couleur du texte */
-  border: 2px solid white; /* Bordure blanche */
+  border: 1px; /* Bordure blanche */
   padding: 10px 20px; /* Espacement intérieur */
   border-radius: 5px; /* Bords arrondis (optionnel) */
   cursor: pointer; /* Changement de curseur au survol */
@@ -30,6 +30,7 @@ html{
 }
 
 .haut_page{
-  background-color: grey;
+  background-color: #202020;
+  color: white;
   padding: 20px;
 }
