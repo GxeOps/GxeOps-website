@@ -7,8 +7,7 @@ html{
 
 .menu {
   background-color: black; /* Fond d'écran noir */
-  padding: 20px; /* Espacement intérieur */
-  border-radius: 10px; /* Bords arrondis (optionnel) */
+  padding: 5px; /* Espacement intérieur */
 }
 
 .menu_ {
@@ -17,11 +16,9 @@ html{
 }
 
 .menu_ button {
-  background-color: white; /* Couleur de fond des boutons */
-  color: black; /* Couleur du texte des boutons */
+  color: white; /* Couleur du texte des boutons */
   border: none; /* Supprime les bordures des boutons */
   padding: 10px 20px; /* Espacement intérieur des boutons */
-  border-radius: 5px; /* Bords arrondis des boutons */
   cursor: pointer; /* Changement de curseur au survol */
 }
 
@@ -31,4 +28,5 @@ html{
 
 .haut_page{
   background-color: grey;
+  padding: 20px;
 }
