@@ -20,7 +20,6 @@ html{
   color: white; /* Couleur du texte */
   border: 1px; /* Bordure blanche */
   padding: 10px 20px; /* Espacement intérieur */
-  border-radius: 5px; /* Bords arrondis (optionnel) */
   cursor: pointer; /* Changement de curseur au survol */
   outline: none; /* Supprime le contour par défaut */
 }
